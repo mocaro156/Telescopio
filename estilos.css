@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.3em;
+  font-size: 1em;
+  background: #0067af url(images/fondo.jpg) top repeat-x;
+}
+.container {
+  width: 80%;
+  max-width: 1000px;
+  background: lightslategray;
+  margin: 20px auto;
+  border-radius: 2%;
+}
+header {
+  width: 100%;
+  float: left;
+}
+header h1 {
+  margin-left: 20px;
+  float: left;
+}
+header h2 {
+  float: right;
+  font-size: 1.3em;
+  margin-top: 30px;
+  margin-right: 292px;
+  margin-bottom: 30px;
+}
+nav {
+  width: 98%;
+  clear: both;
+  padding: 10px;
+  background: tomato;
+  font-size: 20px;
+}
+nav ul {
+  width: 100%;
+  list-style: none;
+  margin-bottom: 30px;
+}
+nav ul li {
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+aside {
+  width: 30%;
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+aside article {
+  width: 90%;
+  margin-bottom: 50px;
+  border-bottom: dotted 1px #5e5c5c;
+  padding-bottom: 20px;
+}
+aside article img {
+  width: 250px;
+}
+section {
+  padding: 20px;
+}
+section h1 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+section p {
+  line-height: 1.5em;
+}
+footer {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding-bottom: 10px;
+}
+footer p {
+  font-size: 0.7em;
+  color: black;
+}
+footer a:link,
+footer a:visited {
+  color: black;
+  font-size: 1em;
+}
+footer a:hover {
+  text-decoration: none;
+}
+h1{
+  color: white;
+}
+#tel {
+  width: 962px;
+  height: 400px;
+  margin-top: 20px;
+}
+a:link {
+  color: cornsilk;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:visited {
+  color: cornsilk;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: gold;
+  font-size: 24px;
+  text-decoration: none;
+}
+a:active {
+  color: cornsilk;
+  text-decoration: none;
+  background-color: transparent;
+}
+#enla{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  list-style: none;
+}
+#enlaces{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  list-style: none;
+}
